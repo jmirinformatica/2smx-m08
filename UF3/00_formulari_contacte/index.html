@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fomulari de contacte</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form method="POST" action="https://alumnes.insjoaquimmir.cat/contact/">
+        <p>
+            <label>
+                Name: <input type="text" name="nom_client" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Email: <input type="email" name="email_client" required>
+            </label>
+        </p>
+        <p>
+            <label>
+                Subject: <input type="text" name="subject" required>
+            </label>
+        </p>
+        <p>
+            <textarea name="message" placeholder="message" cols="40" required></textarea>
+        </p>
+        <p>
+            <input type="hidden" name="email_botiga" value="alfonso.dasilva@insjoaquimmir.cat">
+            <!-- <input type="hidden" name="confirmacio" value="https://alumnes.insjoaquimmir.cat/smx2t.alfonso/UF3/exemple-0/gracies.html">-->
+            <input type="submit" value="CONTACTA!">
+        </p>
+    </form>
+</body>
+
+</html>

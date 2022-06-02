@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test de Javascript</title>
+</head>
+
+<body>
+    <button onclick="test1()">Fes click aquí</button>
+    <div id="missatge"></div>
+    <!-- <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p>
+    <p class="info"></p> -->
+</body>
+<script>
+    function test1() {
+        vegades = 100;
+
+        for (i = 0; i < vegades; i=i+1) {
+            document.getElementById("missatge").innerHTML += "<br>" + i;
+        }
+    }
+
+    // function test2() {
+    //     var elements = document.getElementsByClassName("info");
+    //     for (i = 0; i < elements.length; i++) {
+    //         element = elements.item(i);
+    //         element.innerHTML += "Hola?";
+    //     }
+    // }
+</script>
+
+</html>

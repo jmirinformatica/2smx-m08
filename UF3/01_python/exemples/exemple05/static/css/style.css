@@ -1,0 +1,26 @@
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    text-align: center;
+}
+
+.admin {
+    text-align: right;
+}
+
+.article {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.timestamp {
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 1.2em;
+}

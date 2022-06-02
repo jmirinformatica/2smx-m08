@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test de Javascript</title>
+    <style>
+        .ocult {
+            display: none;
+        }
+        .visible {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="test1()">Fes click aquí</button>
+    <div id="missatge" class="ocult">
+        Hola, com va la vida?
+    </div>
+</body>
+<script>
+    function test1() {
+        document.getElementById("missatge").classList.remove("ocult");
+        document.getElementById("missatge").classList.add("visible");
+    }
+
+    // function test2() {
+    //     missatge = document.getElementById("missatge");
+    //
+    //     //comprovo si ara mateix és visible o no
+    //     if (missatge.classList.contains("ocult")) {
+    //         //si és ocult, el passo a visible
+    //         missatge.classList.remove("ocult");
+    //         missatge.classList.add("visible");
+    //     } else {
+    //         missatge.classList.remove("visible");
+    //         missatge.classList.add("ocult");
+    //     }
+    // }
+</script>
+
+</html>

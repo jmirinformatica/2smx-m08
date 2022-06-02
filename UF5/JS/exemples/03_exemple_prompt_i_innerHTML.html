@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="utf-8">
+    <title>Test de Javascript</title>
+    <style>
+        /* .success {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        } */
+    </style>
+</head>
+
+<body>
+    <button onclick="test1()">Fes click aquí</button>
+    <div id="missatge"></div>
+</body>
+<script>
+    function test1() {
+        nom = prompt("Com et dius?");
+        document.getElementById("missatge").innerHTML = "<p>Benvingut/a " + nom + "!!!!<p>";
+    }
+
+    // function test2() {
+    //     nom = prompt("Com et dius?");
+    //
+    //     if (nom != null && nom != "") {
+    //         document.getElementById("missatge").innerHTML = "<p class='success'>Benvingut/a " + nom + "!!!!<p>";
+    //     } else {
+    //         document.getElementById("missatge").innerHTML = "<p class='error'>No has possat cap nom!</p>";
+    //     }
+    // }
+</script>
+
+</html>
